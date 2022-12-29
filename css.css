@@ -1,0 +1,155 @@
+:root {
+    --button: #FF0000;
+    --main-background:  #C4C4C4;
+    --background: #E5E5E5;
+    --text: #000;
+    --footer: #000;
+    --text-description: #9C9696;
+}
+
+/*Header */
+
+header {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.container {
+   display: flex;
+   gap: 80px;
+
+   font-family: 'Roboto', sans-serif;
+   font-weight: 700;
+}
+
+.container a {
+    text-decoration: none;
+    color: #000;
+}
+
+.search {
+    display: flex;
+    background-color: white;
+    height: 30px;
+}
+
+.search img {
+   width: 25px;
+   height: 20px;
+}
+
+input {
+    background-color: transparent;
+    border: none;
+    height: 25px;
+}
+
+/*Body*/
+
+body {
+   
+    background-color: var(--background);
+    padding: 30px;
+}
+
+.info {
+    font-family: 'Roboto';
+    font-weight: 700;
+
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 500px;
+
+    justify-content: center;
+    margin-left: 50px;
+}
+
+.info p {
+    opacity: 0.5;
+    display: flex;
+    margin-top: 0;
+}
+
+.info h1 {
+    font-size: 50px;
+    margin-bottom: 0;
+}
+
+.info h2 {
+    margin-bottom: 0;
+}
+
+.info button {
+    background-color: var(--button);
+    border: none;
+    color: white;
+    font-family: 'Roboto';
+    font-size: medium;
+
+    width: 200px;
+    height: 70px;
+}
+
+/*Footer*/
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #000;
+    font-family: 'Roboto';
+}
+
+.footer {
+    display: flex;
+    gap: 150px;
+}
+
+.explorer button{
+    background-color: #000;
+    color: white;
+    font-family: 'Roboto';
+
+    width: 220px;
+    height: 100px;
+}
+
+
+/*Main*/
+
+.tenis {
+    width: 700px;
+    height: 600px;
+    background-color: var(--main-background);
+    margin-bottom: 0;
+    margin-left: 250px;
+}
+
+main {
+    display: flex;
+}
+
+section .tenis img {
+    width: 450px;
+}
+
+.amostra {
+    display: flex;
+}
+ .amostra img {
+   max-width: 200px;
+   margin: 16px;
+}
+
+#ampliado {
+    margin-left: 120px;
+}
